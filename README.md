@@ -34,15 +34,15 @@ Este projeto faz parte da Turma 7 da ONE - Oracle Next Education, uma iniciativa
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/
+   gh repo clone anderson-cst/decodificador-oracle-one-alura
    ```
 
 2. Navegue até o diretório do projeto:
     ```
-   cd decodificador-texto-oracle-alura:
-    ```
+   cd decodificado-oracle-one-alura
+   ```
 
 3. Abra o arquivo index.html no seu navegador.
     ```
-   start decodificador-texto-oracle-alura:
-    ```
+   start index.html
+   ```
