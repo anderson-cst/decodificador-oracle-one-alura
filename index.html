@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header></header>
+    <main>        
+        <section class="principal">
+            <div class="logo">
+                <img src="./assets/Frame 6.svg" alt="logo alura">
+            </div>
+
+                <aside class="principal__textoBotoes">
+                    <textarea class="principal__textoBotoes--cripto" rows="10" placeholder="Digite seu texto"></textarea>
+                    <div class="principal__textoBotoes--botoes">
+                        <div class="principal__textoBotoes--msgValida">
+                            <img src="./assets/bi_exclamation-circle-fill.svg" alt="icone exclamacao">
+                            <span>Apenas letras minúsculas e sem acento.</span>    
+                        </div>
+                        <button onclick="btnCripto()" class="btnCripto">Criptografar</button>
+                        <button onclick="btnDescripto()">Descriptografar</button>
+                    </div>
+                </aside>
+
+                <aside class="apresentacao">
+                    <textarea id="textDescripto" class="apresentacao__descripto" placeholder="Digite um texto que você deseja criptografar ou descriptografar." rows="30" cols="27"></textarea>
+                    <button onclick="btnCopiar()" class="copiar">Copiar</button>
+                    <label for="textDescripto">Nenhuma mensagem <br> encontrada</label>
+                    
+                </aside>
+        </section>
+    </main>
+    
+    <footer>
+        Desenvolvido por Anderson Costa - 2024
+    </footer>
+    <script src="./script/script.js"></script>
+</body>
+</html>
